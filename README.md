@@ -6,7 +6,7 @@ This game is a speed test to be able to shoot all the alien robots. You have 15 
 
 I wrote this software to have my first try at creating a game in Python through the Python arcade library. I wanted to better understand how to create a game, and what goes into the basics. This is my first time using graphics with sprites, and using the arcade library. 
 
-[Software Demo and Walkthrough Video](http://youtube.link.goes.here)
+[Software Demo and Walkthrough Video](https://www.youtube.com/watch?v=H87MI0U969s)
 
 # Development Environment
 
