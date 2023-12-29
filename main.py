@@ -1,5 +1,6 @@
 import arcade
 import game_one
+import game_two
 
 
 SPRITE_SCALING = .0006 # .5 at minimum
@@ -56,6 +57,10 @@ class MenuView(arcade.View):
     def on_key_press(self, key, modifiers):
         # Move to Instructions
         instructions_view = game_one.InstructionOneView()
+        self.window.show_view(instructions_view)
+
+    def on_mouse_press(self, x: int, y: int, button: int, modifiers: int):
+        instructions_view = game_two.InstructionTwoView()
         self.window.show_view(instructions_view)
 
 
