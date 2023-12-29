@@ -23,5 +23,6 @@ I used the Python programming language, and the arcade and random libraries for 
 # Future Work
 
 * Add background music
-* Scoreboard with persistant storage
+* Scoreboard with persistant storage (sqlite)
 * Add other retro style games
+* Remove up/down motion, lose lives when time runs out?
